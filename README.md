@@ -2,4 +2,4 @@
 ## Contributors
 * Sue Sampson
 * Tim Alvarado
-Web Dev project
+
