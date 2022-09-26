@@ -19,8 +19,10 @@ header {
 }
 
 h1 {
-    font-weight: 700;
+    font-weight: bold;
     font-family: 'Segoe UI', Verdana, sans-serif;
+    text-align: center;
+    font-size: 50;
 }
 
 h2, h3, h4 {
@@ -29,13 +31,21 @@ h2, h3, h4 {
     
 }
 
+#container {
+    background-color: #76E8FF;
+}
+
 figcaption {
     font-family: 'Segoe UI', Verdana, sans-serif;
-    color: #7A25DA;
+    font-weight: 200;
+    color: #FF76E8;
+
 }
 
 #navBar {
      background-color: #76FF8D;
+     
+
 }
 
 button {
@@ -45,8 +55,26 @@ button {
     font-family: 'Segoe UI', Verdana, sans-serif;
 }
 
+#About a:hover {
+    background-color: white;
+    color: black;
+}
+
+#About {
+    float: left;
+}
+
+#Hobbies {
+    float: right;
+}
+
+#Landing {
+    border-radius: 12px;
+}
+
 .description {
     color: #7A25DA;
+
 }
 
 #image_description {
@@ -54,12 +82,25 @@ button {
     font-size: 12;
     font: 400;
     color: #7A25DA;
+    text-indent: 30px;
+}
+
+#about-info {
+    color: #7A25DA;
+    font-family: 'Courier Prime', 'Verdana', sans-serif;
+    text-align: left;
+    position: absolute; left: 570px; top: auto;
+    line-height: 2.5;
+    text-indent: 30px;
 }
 
 .image_1 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: .3s;
     width: 50%;
+    background-color: #76FF8D;
+    position: absolute; left: 900px; top: 400px;
+    padding: 2%;
 }
 
 .image_2 {
@@ -67,6 +108,8 @@ button {
     transition: .3s;
     width: 50%;
     background-color: #76FF8D;
+    position: absolute; left: 900px; top: 1000px;
+    padding: 2%;
 }
 
 .image_3 {
@@ -74,6 +117,20 @@ button {
     transition: .3s;
     width: 50%;
     background-color: #76FF8D;
+    position: absolute; left: 900px; top: 1600px;
+    padding: 2%;
+}
+
+#back {
+    float: right;
+}
+
+#favoriteLink {
+    float: left;
+}
+
+img {
+    border: 10px solid #76FF8D;
 }
 
 
